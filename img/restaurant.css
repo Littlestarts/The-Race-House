@@ -1,0 +1,45 @@
+        .col3 {
+        column-count: 3;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0%;
+            padding: 0%;
+        }
+    
+        li {
+            float: left;
+        }
+    
+        a {
+            display: block;
+            padding: 8px;
+            background-color: #dddddd;
+        }
+    
+        #nav {
+            color: black;
+            font-weight: 100;
+            font: bolder;
+        }
+
+        .footer {
+            background-color: #0099cc;
+            color: #ffffff;
+            text-align: center;
+            font-size: 12px;
+            padding: 15px;
+        }
+
+            #bldg2 {
+                display: flex;
+                }
+    
+            #bldg2 > div {
+                width: 600px;
+                height: 400px;
+                justify-content: center;
+                text-align: center;
+            }
+  
