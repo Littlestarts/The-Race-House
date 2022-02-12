@@ -39,3 +39,16 @@ color: black;
 font-weight: 100;
 font: bolder;
 }
+
+.map {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.map > {
+    width: 800px;
+    height: 800px;
+
+}

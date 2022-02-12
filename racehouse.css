@@ -52,3 +52,103 @@ h1 {
     width: 200px;
     height: 200px;
 }
+
+.access {
+    display: block;
+  }
+  
+  .access > {
+      margin: 80px;
+      font-size:10px;
+      border: hidden;
+  }
+
+  h2 {
+    text-decoration: underline;
+    color: silver;
+    text-shadow: 3px, 5px;
+    font-size: 32px;
+  }
+
+   .lounge {
+    display: flex;
+    justify-content: end;
+}
+    
+    .dinimg > div {
+        border-style: hidden;
+        padding: 1px;
+        margin: 100px;
+        margin-left: 1px;
+     }
+            
+    .dinimg {
+       display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+    }
+    
+    .gokart > div {
+        border-style: hidden;
+        padding: 1px;
+        margin: 100px;
+        margin-left: 1px;
+     }
+        
+    
+    .arcade {
+       display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .arcade > div {
+        border-style: hidden;
+        padding: 1px;
+        margin: 100px;
+        margin-left: 1px;
+     }
+        
+    .gokart {
+       display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+    }
+    
+    p {margin: 70px;
+          }
+       
+       .lodging {
+           display:flex;
+           justify-content: center;
+    
+       }
+    
+    .lodging > div {
+        width: auto;
+        height: auto;
+       }
+     
+       .map {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    .map > {
+        width: 800px;
+        height: 800px;
+    }
+
+    #menu {
+        display: flex;
+    }
+        
+    #menu > div {
+        justify-items: center;
+        margin: 0;
+        padding: 25px;
+    }
+
