@@ -142,17 +142,21 @@ p {
     margin-left: 1px;
 }
      
-       .map {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+.map {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
-    }
+}
 
-    .map > {
-        width: 800px;
-        height: 800px;
-    }
+.map > {
+    margin:100px;
+    width: 800px;
+    height: 800px;
+    border: hidden;
+    padding: 25px;
+    margin-left: 50px;
+}
 
     #menu {
         display: flex;
