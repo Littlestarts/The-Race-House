@@ -70,65 +70,77 @@ h1 {
     font-size: 32px;
   }
 
-   .lounge {
+  .lounge {
     display: flex;
-    justify-content: end;
+    flex-direction: row;
+    justify-content: center;
 }
-    
-    .dinimg > div {
-        border-style: hidden;
-        padding: 1px;
-        margin: 100px;
-        margin-left: 1px;
-     }
-            
-    .dinimg {
-       display: flex;
-        flex-wrap: nowrap;
-        flex-direction: row;
-    }
-    
-    .gokart > div {
-        border-style: hidden;
-        padding: 1px;
-        margin: 100px;
-        margin-left: 1px;
-     }
-        
-    
-    .arcade {
-       display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        justify-content: center;
-    }
-    
-    .arcade > div {
-        border-style: hidden;
-        padding: 1px;
-        margin: 100px;
-        margin-left: 1px;
-     }
-        
-    .gokart {
-       display: flex;
-        flex-wrap: nowrap;
-        flex-direction: row;
-    }
-    
-    p {margin: 70px;
-          }
-       
-       .lodging {
-           display:flex;
-           justify-content: center;
-    
-       }
-    
-    .lodging > div {
-        width: auto;
-        height: auto;
-       }
+
+.lounge>div {
+    border-style: hidden;
+    padding: 1px;
+    margin: 100px;
+    margin-left: 1px;
+}
+
+.dinimg>div {
+    border-style: hidden;
+    padding: 1px;
+    margin: 100px;
+    margin-left: 1px;
+}
+
+.dinimg {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.gokart {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.gokart>div {
+    border-style: hidden;
+    padding: 1px;
+    margin: 100px;
+    margin-left: 1px;
+}
+
+
+.arcade {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.arcade>div {
+    border-style: hidden;
+    padding: 1px;
+    margin: 100px;
+    margin-left: 1px;
+}
+
+p {
+    margin: 70px;
+}
+
+.lodging {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.lodging>div {
+    border-style: hidden;
+    padding: 1px;
+    margin: 100px;
+    margin-left: 1px;
+}
      
        .map {
         display: flex;
