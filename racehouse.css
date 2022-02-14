@@ -70,11 +70,48 @@ h1 {
     font-size: 32px;
   }
   
-  .lounge {
+  h2 {
+    text-decoration: underline;
+    color: silver;
+    text-shadow: 3px, 5px;
+    font-size: 32px;
+}
+
+body {
+    color: silver;
+    background-color: black;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+}
+
+li {
+    float: left;
+}
+
+a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+}
+
+#nav {
+    color: black;
+    font-weight: 100;
+    font: bolder;
+}
+
+.lounge {
     display: flex;
     flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .lounge>div {
@@ -84,8 +121,7 @@ h1 {
     margin-left: 1px;
 }
 
-
-.dinimg > div {
+.dinimg>div {
     border-style: hidden;
     padding: 1px;
     margin: 100px;
@@ -104,13 +140,12 @@ h1 {
     flex-direction: row;
 }
 
-.gokart > div {
+.gokart>div {
     border-style: hidden;
     padding: 1px;
     margin: 100px;
     margin-left: 1px;
 }
-
 
 .arcade {
     display: flex;
@@ -119,7 +154,7 @@ h1 {
     justify-content: center;
 }
 
-.arcade > div {
+.arcade>div {
     border-style: hidden;
     padding: 1px;
     margin: 100px;
@@ -137,11 +172,23 @@ p {
     flex-wrap: wrap;
 }
 
-.lodging > div {
+.lodging>div {
     border-style: hidden;
     padding: 1px;
     margin: 100px;
     margin-left: 1px;
+}
+
+#ul {
+list-style-type: square;
+margin-left: 0px;
+padding-left: 20px;
+}
+
+#li {
+list-style-position: inside;
+margin-left: 20px;
+
 }
      
 .map {
