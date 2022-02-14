@@ -10,6 +10,7 @@ color: silver;
 text-shadow: 3px, 5px;
 font-size: 32px;
 }
+
 body {
 color: silver;
 background-color: black;
@@ -29,9 +30,10 @@ float: left;
 }
 
 a {
-display: block;
-padding: 8px;
-background-color: #dddddd;
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+    color: black;
 }
 
 #nav {
