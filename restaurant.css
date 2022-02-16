@@ -5,6 +5,8 @@
     margin-left: 25px;
     max-width: max-content;
     column-fill: balance;
+    background-color: black;
+    color: silver;
 }
 
 @media screen and (max-width: 992px) {
@@ -73,4 +75,9 @@ a {
 #abair {
     display: flex;
     justify-content: center;
+    
 }
+
+#abair > {
+    border: hidden;
+      }

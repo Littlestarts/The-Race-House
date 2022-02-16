@@ -39,6 +39,8 @@ h1 {
     margin-left: 25px;
     max-width: max-content;
     column-fill: balance;
+    background-color: black;
+    color: silver;
 }
 
 @media screen and (max-width: 992px) {
@@ -54,16 +56,27 @@ h1 {
 }
 
 
-#bldg1 {
-    width: 200px;
-    height:200px;
-}
-
 #bldg2 {
-    width: 200px;
-    height:200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
+#bldg2>div {
+    border: hidden;
+    padding: 15px;
+    margin-left: 10px;
+}
+
+#abair {
+    display: flex;
+    justify-content: center;
+    
+}
+
+#abair > {
+    border: hidden;
+      }
 
 #dining {
     width: 200px;
