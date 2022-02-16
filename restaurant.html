@@ -10,26 +10,14 @@
     <link rel="restaurant" href="restaurant.css">
     <style>
         .col3 {
-    column-count: 3;
-    column-gap: 40px;
-    justify-content: center;
-    margin-left: 25px;
-    max-width: max-content;
-    column-fill: balance;
-    background-color: black;
-    color: silver;
-}
+            display: flex;
+           flex-direction: column;
+            justify-content: center;
+                   }
 
-        @media screen and (max-width: 992px) {
-            .col3 {
-                width: 50%;
-            }
-        }
-
-        @media screen and (max-width: 600px) {
-            .col3 {
-                width: 100%;
-            }
+        .col3 > {
+            border: hidden
+            
         }
 
         h2 {
@@ -45,6 +33,7 @@
             font-size: 20px;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             font-weight: bold;
+
         }
 
         ul {
@@ -78,22 +67,14 @@
 
         #bldg2>div {
             border: hidden;
-            padding: 15px;
+            padding: 25px;
             margin-left: 10px;
         }
 
         #abair {
             display: flex;
             justify-content: center;
-            
         }
-
-        #abair > {
-            border: hidden;
-              }
-
-           
-
     </style>
 </head>
 
@@ -121,37 +102,39 @@
                 height="350px" alt="image of Race House building">
         </div>
     </div><br><br><br>
-    <p><span>
-            <center>Welcome to the grand opening of the Race House!</center>
-        </span></p> <br>
+    <p><span><center>Welcome to the grand opening of the Race House!</center></span></p> <br>
     <div class="col3">
-        <p> The Race House is an exciting new family restaurant in
+        The Race House is an exciting new family restaurant in
             historic Saratoga Springs. Unlike any other dining experience
         <div id="dining">
-            <div><a href="https://images.unsplash.com/photo-1457460866886-40ef8d4b42a0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8Mnx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=60" width="200px" height="200px"
-                alt="image of burger and beer"></div>
-     <br><br><br><br><br><br><br><br>The Race House
+            <div><img src="/img/edward-franklin-Nb_Q-M3Cdzg-unsplash Burger and Beer 2 6 22.jpg" width="200px"
+                    height="200px" alt="Image of burger and beer"></div>
+            <br><br><br>The Race House
             showcases
-            the beauty of classic exhibitions throuhout the grounds,
+            The beauty of classic exhibitions throuhout the grounds,
             <div id="classcar">
-                <div><img src="img/automobile-gfed46634e_1920 museum car 2 2 22.jpg" width="200px"
-                    height="200px" alt="image of classic cars"></div>
-            <br><br>an arcade gaming room with arcade racing games,<div id="arcade"><img
-                    src="img/wilmer-martinez-zLlXblupecM-unsplash arcade1 2 7 22.jpg" width="200px" height="200px"
-                    alt="image of arcade and young girl"></div> <br>kart racing <div id="kartcar"><img
-                    src="img/bastien-plu-CUt2SVsDbk4-unsplash kart racer2 2 6 22.jpg" width="200px" height="200px"
-                    alt="image of kart car racing"></div><br><br>and luxury lodging <div id="lodging"><img
-                    src="/img/gideonputnam-putnam-suite-2-lg.jpg" width="200px" height="200px" alt="image of lodgings"></div>
-            </p>
-        </div>
-        <br>
-        <br><div id="abair">
-            <p><div><img src="img/ABSTRACTED AIR BY LYN HINER.png" width="950px" height="950px"
-                alt="Image of painting called the Abstracted Air by Lyn Hiner"></div>
+                <div><img src="img/automobile-gfed46634e_1920 museum car 2 2 22.jpg" width="200px" height="200px"
+                        alt="Image of classic cars"></div>
+                <br><br>An arcade gaming room with arcade racing games,<div id="arcade"><img
+                        src="img/wilmer-martinez-zLlXblupecM-unsplash arcade1 2 7 22.jpg" width="200px" height="200px"
+                        alt="Image of arcade and young girl"></div> <br><br>Kart Racing <div id="kartcar"><img
+                        src="img/bastien-plu-CUt2SVsDbk4-unsplash kart racer2 2 6 22.jpg" width="200px" height="200px"
+                        alt="Image of kart car racing"></div><br><br>and Luxury Lodging <div id="lodging"><img
+                        src="/img/gideonputnam-putnam-suite-2-lg.jpg" width="200px" height="200px"
+                        alt="Image of lodgings"></div>
+                
+            </div>
+            <br>
+            <br>
+            <div id="abair">
+                <p>
+                <div><img src="img/ABSTRACTED AIR BY LYN HINER.png" width="950px" height="950px"
+                        alt="Image of painting called the Abstracted Air by Lyn Hiner"></div>
 
-         </div></p><br>
- 
-        
+            </div>
+            </p><br>
+
+
 
 </body>
 

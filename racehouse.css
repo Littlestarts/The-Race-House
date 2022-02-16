@@ -34,25 +34,8 @@ h1 {
 
 .col3 {
     column-count: 3;
-    column-gap: 40px;
     justify-content: center;
-    margin-left: 25px;
-    max-width: max-content;
-    column-fill: balance;
-    background-color: black;
-    color: silver;
-}
 
-@media screen and (max-width: 992px) {
-    .col3 {
-        width: 50%;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .col3 {
-        width: 100%;
-    }
 }
 
 
@@ -71,12 +54,8 @@ h1 {
 #abair {
     display: flex;
     justify-content: center;
-    
-}
+    }
 
-#abair > {
-    border: hidden;
-      }
 
 #dining {
     width: 200px;
