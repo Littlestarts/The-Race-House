@@ -30,13 +30,21 @@ a {
 
 h1 {
     column-span: all;
-}
 
+}
 .col3 {
-    column-count: 3;
+    display: flex;
+   flex-direction: column;
     justify-content: center;
+    justify-items: center;
+    justify-content: space-around;
+    justify-content:space-between;
+           }
 
+.col3 > {
+    border: hidden
 }
+
 
 
 #bldg2 {
